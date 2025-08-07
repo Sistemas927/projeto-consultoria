@@ -4,15 +4,17 @@ export const ServicesSection = () => {
   const services = [{
     icon: <Briefcase size={32} />,
     title: 'Consultoria Estratégica',
-    description: 'Desenvolvimento de planos estratégicos baseados em metodologias militares adaptadas para o ambiente corporativo.'
+    description: 'Desenvolvimento de planos estratégicos personalizados, aplicando metodologias militares adaptadas por Roberto Aragão para promover resultados concretos em qualquer cenário.'
+
+
   }, {
     icon: <LineChart size={32} />,
     title: 'Gestão de Crises',
-    description: 'Preparação e implementação de protocolos para gerenciamento de situações críticas e tomada de decisão sob pressão.'
+    description: 'Elaboração e aplicação de protocolos sólidos para enfrentar situações críticas e tomar decisões assertivas, mesmo sob máxima pressão.'
   }, {
     icon: <Users size={32} />,
     title: 'Liderança de Equipes',
-    description: 'Treinamento para líderes desenvolverem equipes de alta performance com foco em disciplina e resultados.'
+    description: 'Capacitação de líderes para moldar equipes resilientes e de alto desempenho, com base em disciplina e busca constante por resultados..'
   }, {
     icon: <ShieldCheck size={32} />,
     title: 'Segurança Corporativa',
@@ -20,11 +22,12 @@ export const ServicesSection = () => {
   }, {
     icon: <BookOpen size={32} />,
     title: 'Treinamentos Especializados',
-    description: 'Programas de capacitação em disciplina, resiliência e mentalidade estratégica para colaboradores.'
+    description: ' capacitação em disciplina, resiliência e estratégia, personalizados a partir do seu contexto real. Roberto Aragão identifica seus desafios para orientar o seu crescimento com precisão.'
+
   }, {
     icon: <Compass size={32} />,
-    title: 'Planejamento Tático',
-    description: 'Estruturação de operações e projetos com precisão militar para maximizar eficiência e resultados.'
+    title: 'Ação Rápida',
+    description: 'Em situações de emergência, entre em contato para atendimento prioritário e orientação imediata.'
   }];
   return <section id="services" className="bg-[#0A3D1C]/10 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,8 +36,9 @@ export const ServicesSection = () => {
             Nossos Serviços
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Aplicamos princípios militares de disciplina, estratégia e liderança
-            para transformar sua empresa
+           A disciplina, a estratégia e a liderança militar que moldaram grupos de elite agora ao seu serviço para transformar pessoas, processos e resultados.
+
+
           </p>
           <div className="w-20 h-1 bg-[#0A3D1C] mx-auto mt-4"></div>
         </div>
